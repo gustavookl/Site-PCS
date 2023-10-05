@@ -1,0 +1,167 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* margin: 0; */
+    /* padding: 100px; */
+    background-image: url(./assets/astract-dark-pattern_1053-173.avif);
+    background-color: rgb(48, 40, 40);
+    background-size: 100%;
+  }
+  
+  header{
+    background-color: #cb3131;
+    color: #fff;
+    padding: 20px;
+    height: 150px;
+  }
+  
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li{
+    display: inline-block;
+  }
+  
+  nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav .link_palavras:hover{
+    background-color: #16a085;
+  }
+  
+  nav img:hover {
+    background-color: #16a085;
+  }
+  
+  h1, h2, h3{
+    margin-top: 0;
+  }
+  
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+ 
+
+form input[type="submit"]:hover {
+  background-color: #982d2d;
+}
+
+footer {
+  background-color: #c44a4a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.parte1{
+  margin-left: 400px;
+  
+}
+.parte2{
+  margin-left: 400px;
+}
+#modelos{
+  margin-left: 15px;
+}
+#sobre{
+  margin-left: 15px;
+}
+.pcs{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pcs > div > p {
+  font-size: 15px;
+}
+
+.carrinho{
+  width: 60px;
+  /* position: absolute; */
+  /* margin-left: 82vw; */
+  /* margin-top: -100px; */
+  /* margin-left: 1150px; */
+}
+.div-1 {
+  margin-right: 50px;
+  width: 150px;
+  height: 100px;
+
+}
+.PCs{
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+}
+
+.lupa{
+  width: 70px;
+  height: 40px;
+  margin-top: 20px;
+  /* position: absolute; */
+  /* margin-left: 1100px; */
+}
+.logo1{
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 478px;
+}
+#contato{
+  margin-top: 80px;
+}
+
+.containerHeader{
+  display: flex;
+}
+
+.partedecima{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+
+
+
+
+
